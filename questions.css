@@ -1,0 +1,50 @@
+* {
+  font-display: swap; }
+
+.container-content {
+  width: 100%;
+  margin: 20px 0 50px 0;
+  font-size: 15px; }
+
+.centercolumn {
+  width: 70%;
+  margin: 0 auto; }
+
+.card {
+  background: white;
+  padding: 20px;
+  font-family: "Helvetica";
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px; }
+  .card h3 {
+    font-family: "Comfortaa-b";
+    text-decoration: underline; }
+
+#io {
+  display: flex;
+  justify-content: space-between; }
+  #io .card {
+    width: 49%; }
+
+#languages ul {
+  padding-top: 10px; }
+#languages li {
+  list-style: none;
+  display: inline-block;
+  background: #20a6d2;
+  color: white;
+  width: 12ch;
+  padding: 3px;
+  text-align: center;
+  border-radius: 3px; }
+
+#submission {
+  text-align: center; }
+
+input[type="submit"] {
+  background: green;
+  color: white;
+  padding: 10px; }
+
+/*# sourceMappingURL=questions.css.map */

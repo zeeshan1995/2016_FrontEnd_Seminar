@@ -7,7 +7,7 @@
 @font-face {
   font-family: "Comfortaa-l";
   src: url("Comfortaa-Light.ttf"); }
-* {
+body{
   margin: 0;
   padding: 0;
   border: 0; }
