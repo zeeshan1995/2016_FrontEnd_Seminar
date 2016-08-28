@@ -1,131 +1,141 @@
 <!Doctype html>
-<html>
-	<head>
-		<title>Home</title>
-		<link rel="shortcut icon" type="image/png" href="Code-Optimization.png"/>
-		<link rel="stylesheet" type="text/css" href="home.css">
-		<link rel="stylesheet" type="text/css" href="headAndFoot.css">
-	</head>
-	<body>
-		<nav>
-			<img src="Code-Optimization.png">
-			<a href="home.html" class="selected">Home</a>
-			<a href="practise.html">Practice</a>
-			<a href="leaderboard.html">Leaderboard</a>
-			<a href="questions.html">Question</a>
-			<a href="forum.html">Forum</a>
-		</nav>
-		
-		<div id="forms" style="left:5px; width:45%;">
-			<h2>About CUrBrain September Long Challenge:</h2>
-CUrBrain Long Challenge is a 10 day monthly coding contest where you can show off your computer programming skills. The significance being- it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you're usually slow at solving problems and have ample time in hand, this is ideal for you. There would a tremendous amount of learning while competing. We also put in a lot of efforts in getting quality problems, which would in turn foster your learning while solving them.
+<html lang="en">
+    <head>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+        
+        <title>Home</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
-			<h2>Contest Details:</h2>
-			 <b >Duration:</b> 10 Days, From 3th September 15:00 hrs IST to 13th September 15:00 hrs IST. Check your timezone here.<br>
-			<b >Eligibility Criteria: Anyone with a knack for Programming :P</b><br>
-Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to CUrBrain Code Of Conduct.
-		</div>
-			<div id="forms">
-			<!--	<div class=instr_box>
-					<h4>SIGN IN</h4>
-				</div>
-				-->
-			<form id = "login" action="database/validate" name="myForm" method="post">	
-				User Name : <input type="text" name="userid" placeholder="User Name" autofocus>
-			
-				Password:<input type="password" name="pass" placeholder="Password">
-				<input style="align:centre;cursor:pointer" type="submit" value="Login">
-				</form>
-				
-				<p><a href="#"><font color="red"><u>Forget Password!</u></font></a></p>
-				<hr id="line">
-				
-				<form id = "reg" action="database/register" method="post"> 
-   		 	 	<br>
-   		 	 	
-   		 	 	 
-				 <label for="name">
-					 Name:<sup style="color:red">*</sup>
-				 </label>
-				 <input name="fname" type="text" id="name" placeholder="First Name" required >
-				 &nbsp;&nbsp;
-				 <input name="lname" type="text" id="name" placeholder="Last Name">
-				 <br>
-				 
-				 <label for="gender" style="right:10px;" >
-					 Gender:<sup style="color:red">*</sup>
-				 </label>
-				 <select id="gender" name = "gender" required>
-				 	<option value="male">Male</option>
-				 	<option value="female">Female</option>
-				 	<option value="other">Other</option>
-				 </select>
-				 <br>
-				   
-				 <label for="email" >
-					 Email id:<sup style="color:red">*</sup>
-				 </label>
-				 <input name="emailid" type="email"  id="email" required>
-				 <br>
-				 
-				 <label for="pass1" >
-					 Password:<sup style="color:red">*</sup>
-				 </label>
-				 <input name="password" type="password" minlength="7" id="pass1" required>
-				 <br>
-				 
-				 <label for="pass2" >
-					 Confirm Password:<sup style="color:red">*</sup>	
-				 </label>
-				 <input name="password2" type="password" maxlength="20" id="pass2" required >
-				 <br>
-				 
-				 <label for="mobile" >
-					 Mobile No:
-				 </label>
-				 <input name="Mobile" type="text" id="mobile" pattern="[0-9]{10}" title="Ten digit number">
-				 <br>
-				 
-				 <label for="username" >
-					 Choose UserName:<sup style="color:red">*</sup>
-				 </label>
-				 <input name="userName" type="text" id="username" required>
-				 <br>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/Code-Optimization.png">
+        <link rel="stylesheet" type="text/css" href="assets/styles/home.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/headAndFoot.css">
+    </head>
+    <body>
+        <nav>
+            <img src="assets/images/Code-Optimization.png" alt="CodeTheWeb">
+            <a href="home.html" class="selected">Home</a>
+            <a href="profile.html">My Profile</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="questions.html">Question</a>
+            <a href="forum.html">Forum</a>
+        </nav>
+        
+        <div id="forms" style="left:5px; width:45%;">
+            <h2>About CUrBrain September Long Challenge:</h2>
+            <p>
+                CUrBrain Long Challenge is a 10 day monthly coding contest where you can show off your computer programming skills. The significance being- it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you're usually slow at solving problems and have ample time in hand, this is ideal for you. There would a tremendous amount of learning while competing. We also put in a lot of efforts in getting quality problems, which would in turn foster your learning while solving them.
+            </p>
+            <h2>Contest Details:</h2>
+            <b>Duration:</b> 10 Days, From 3th September 15:00 hrs IST to 13th September 15:00 hrs IST. Check your timezone here.<br>
+            <b>Eligibility Criteria: Anyone with a knack for Programming :P</b>
+            <br>
+            <p>
+                Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to CUrBrain Code Of Conduct.
+            </p>
+        </div>
+            <div id="forms">
+            <!--    <div class=instr_box>
+                    <h4>SIGN IN</h4>
+                </div>
+                -->
+            <form id = "login" action="database/validate" name="myForm" method="post">  
+                User Name : <input type="text" name="userid" placeholder="User Name" autofocus>
+            
+                Password:<input type="password" name="pass" placeholder="Password">
+                <input style="align:centre;cursor:pointer" type="submit" value="Login">
+                </form>
+                
+                <p><a href="#"><font color="red"><u>Forget Password!</u></font></a></p>
+                <hr id="line">
+                
+                <form id = "reg" action="database/register" method="post"> 
+                <br>
+                
+                 
+                 <label for="name">
+                     Name:<sup style="color:red">*</sup>
+                 </label>
+                 <input name="fname" type="text" id="name" placeholder="First Name" required >
+                 &nbsp;&nbsp;
+                 <input name="lname" type="text" id="name" placeholder="Last Name">
+                 <br>
 
-				 <label for="college">
-					 College:
-				 </label>
-				 <input name="clg" type="text"  id="college" >
-				 <br>
-				 
-				 <label for="lang">
-				 	Language(s) Known:
-				 </label>
-				 <input type="checkbox" name="lang" id="lang" value="c">C &nbsp;
-				 <input type="checkbox" name="lang" id="lang" value="cpp">C++ &nbsp;
-				 <input type="checkbox" name="lang" id="lang" value="python">Python &nbsp;
-				 <input type="checkbox" name="lang" id="lang" value="java">Java &nbsp;
-				 <br>
-				 
-				 <label for="expr">
-				 	Experience:
-				 </label>
-				 <input type="radio" name="expr" id="expr" value="beg">Beginner
-				 <input type="radio" name="expr" id="expr" value="mod">Moderate
-				 <input type="radio" name="expr" id="expr" value="expert">Expert
-				 <br><br>
-				 
-				 Upload your photo:<sup style="color:red">*</sup> <input type="file" accept="image/*" name="pic" required>
-				 <br><br>
-				 <div style="margin-left:20%">
-					 <input type="submit" value="SIGN UP" >
-				 </div>
-			 </form>
-		<!--		<center><h4><a href="regist.html"><font color="#8080ff"><u>New User Signup</u></font></a></h4></center> -->
-			</div>
-			
-		<footer>
-		&lt; CUrBrain /&gt;
-		</footer>
-	</body>
+                 <label for="gender" style="right:10px;" >
+                     Gender:<sup style="color:red">*</sup>
+                 </label>
+                 <select id="gender" name = "gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                 </select>
+                 <br>
+                   
+                 <label for="email" >
+                     Email id:<sup style="color:red">*</sup>
+                 </label>
+                 <input name="emailid" type="email"  id="email" required>
+                 <br>
+                 
+                 <label for="pass1" >
+                     Password:<sup style="color:red">*</sup>
+                 </label>
+                 <input name="password" type="password" minlength="7" id="pass1" required>
+                 <br>
+                 
+                 <label for="pass2" >
+                     Confirm Password:<sup style="color:red">*</sup>    
+                 </label>
+                 <input name="password2" type="password" maxlength="20" id="pass2" required >
+                 <br>
+                 
+                 <label for="mobile" >
+                     Mobile No:
+                 </label>
+                 <input name="Mobile" type="text" id="mobile" pattern="[0-9]{10}" title="Ten digit number">
+                 <br>
+                 
+                 <label for="username" >
+                     Choose UserName:<sup style="color:red">*</sup>
+                 </label>
+                 <input name="userName" type="text" id="username" required>
+                 <br>
+
+                 <label for="college">
+                     College:
+                 </label>
+                 <input name="clg" type="text"  id="college" >
+                 <br>
+                 
+                 <label for="lang">
+                    Language(s) Known:
+                 </label>
+                 <input type="checkbox" name="lang" id="lang" value="c">C &nbsp;
+                 <input type="checkbox" name="lang" id="lang" value="cpp">C++ &nbsp;
+                 <input type="checkbox" name="lang" id="lang" value="python">Python &nbsp;
+                 <input type="checkbox" name="lang" id="lang" value="java">Java &nbsp;
+                 <br>
+                 
+                 <label for="expr">
+                    Experience:
+                 </label>
+                 <input type="radio" name="expr" id="expr" value="beg">Beginner
+                 <input type="radio" name="expr" id="expr" value="mod">Moderate
+                 <input type="radio" name="expr" id="expr" value="expert">Expert
+                 <br><br>
+                 
+                 Upload your photo:<sup style="color:red">*</sup> <input type="file" accept="image/*" name="pic" required>
+                 <br><br>
+                 <div style="margin-left:20%">
+                     <input type="submit" value="SIGN UP" >
+                 </div>
+             </form>
+                <!-- <center><h4><a href="regist.html"><font color="#8080ff"><u>New User Signup</u></font></a></h4></center>  -->
+            </div>
+            
+        <footer>
+        &lt; CUrBrain /&gt;
+        </footer>
+    </body>
 </html>

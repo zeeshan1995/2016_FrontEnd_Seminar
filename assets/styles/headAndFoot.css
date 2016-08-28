@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Comfortaa-b";
-  src: url("Comfortaa-Bold.ttf"); }
+  src: url("../fonts/Comfortaa-Bold.ttf"); }
 @font-face {
   font-family: "Comfortaa-r";
-  src: url("Comfortaa-Regular.ttf"); }
+  src: url("../fonts/Comfortaa-Regular.ttf"); }
 @font-face {
   font-family: "Comfortaa-l";
-  src: url("Comfortaa-Light.ttf"); }
+  src: url("../fonts/Comfortaa-Light.ttf"); }
 body{
   margin: 0;
   padding: 0;
@@ -48,6 +48,7 @@ nav {
       display: block;
       position: absolute;
       top: 2.7em;
+      left: 0;
       height: 0;
       width: 0;
       pointer-events: none;
@@ -71,4 +72,5 @@ footer {
   background: #db0f27;
   width: 100%;
   padding: 2px;
-  color: white; }
+  color: white; }/* CSS Document */
+

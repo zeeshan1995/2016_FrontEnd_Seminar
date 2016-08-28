@@ -1,90 +1,89 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-    
-    <title>Question</title>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
-    <link rel="stylesheet" type="text/css" href="headAndFoot.css">
-    <link rel="stylesheet" type="text/css" href="questions.css">
-    <link rel="shortcut icon" type="image/x-icon" href="Code-Optimization.png">
-
-</head>
-<body>
-    <nav>
-        <img src="Code-Optimization.png" alt="CodeTheWeb">
-        <a href="#">Home</a>
-        <a href="#">Practice</a>
-        <a href="#">Leaderboard</a>
-        <a href="#" class="selected">Question</a>
-        <a href="#">Forum</a>
-    </nav>
-    <div class="container-content">
-        <!-- Question Column -->
-        <div class="Question centercolumn card">
-            <h3>Question Title</h3>
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam maxime itaque hic ratione. Sapiente, harum dolor illo nesciunt quia voluptas quasi nihil illum quam sint ullam architecto nemo beatae magnam quo obcaecati eius minus quisquam. Quasi quas officiis facilis fugiat rerum atque quisquam consequatur aspernatur perferendis eius repudiandae iste similique accusantium quaerat, illum nihil laudantium nostrum laborum. Delectus aperiam assumenda impedit. Optio numquam repellat amet eius recusandae esse expedita temporibus, tenetur reiciendis sit, debitis nemo rem ratione alias dolor eligendi minus dolore nihil tempore enim. Cumque, modi obcaecati. Mollitia earum repellat itaque, deleniti error reprehenderit possimus culpa dolores nihil voluptate.
-        </div>
+<html lang="en">
+    <head>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
         
-        <div id="ioformat" class="centercolumn card">
-            <h3>Input Format</h3>
-            <p>
-                The first line of the input contains one integer <strong><em>T</em></strong>, the number of test cases.
-                Each test case is described by a line containing an integer <strong><em>n</em></strong>, representing the size of the board.
-            </p>
-            <br>
-            <h3>Output Format</h3>
-            <p>
-                For each test case print n + 1 lines each of them containing four integers x1, y1, x2, y2 with x1 &ne; x2 and y1 &ne; y2, representing a line that goes from (x1,y1) to (x2,y2).If there are multiple passwords that satisfies the information, print any of them.
-            </p>
-        </div>
+        <title>Question</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
-        <div id="io" class="centercolumn">
-            <div class="card">
+        <link rel="stylesheet" type="text/css" href="assets/styles/questions.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/headAndFoot.css">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/Code-Optimization.png">
+    </head>
+    <body>
+        <nav>
+            <img src="assets/images/Code-Optimization.png" alt="CodeTheWeb">
+            <a href="home.html">Home</a>
+            <a href="profile.html">My Profile</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="questions.html"  class="selected">Question</a>
+            <a href="forum.html">Forum</a>
+        </nav>
+        <div class="container-content">
+            <!-- Question Column -->
+            <div class="Question centercolumn card">
+                <h3>Question Title</h3>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam maxime itaque hic ratione. Sapiente, harum dolor illo nesciunt quia voluptas quasi nihil illum quam sint ullam architecto nemo beatae magnam quo obcaecati eius minus quisquam. Quasi quas officiis facilis fugiat rerum atque quisquam consequatur aspernatur perferendis eius repudiandae iste similique accusantium quaerat, illum nihil laudantium nostrum laborum. Delectus aperiam assumenda impedit. Optio numquam repellat amet eius recusandae esse expedita temporibus, tenetur reiciendis sit, debitis nemo rem ratione alias dolor eligendi minus dolore nihil tempore enim. Cumque, modi obcaecati. Mollitia earum repellat itaque, deleniti error reprehenderit possimus culpa dolores nihil voluptate.
+            </div>
+            
+            <div id="ioformat" class="centercolumn card">
                 <h3>Input Format</h3>
-                <code>
-                    4 <br>
-                    1 4 <br>
-                    3 10 <br>
-                    2 6 <br>
-                    5 8 <br>
-                    3 <br>
-                    1 5 <br>
-                    2 2 6 <br>
-                    3 1 10 9 <br>
-                </code>
-            </div>
-            <div class="card">
+                <p>
+                    The first line of the input contains one integer <strong><em>T</em></strong>, the number of test cases.
+                    Each test case is described by a line containing an integer <strong><em>n</em></strong>, representing the size of the board.
+                </p>
+                <br>
                 <h3>Output Format</h3>
-                <code>
-                    3 <br>
-                    4 <br>
-                    2 <br>
-                </code>
+                <p>
+                    For each test case print n + 1 lines each of them containing four integers x1, y1, x2, y2 with x1 &ne; x2 and y1 &ne; y2, representing a line that goes from (x1,y1) to (x2,y2).If there are multiple passwords that satisfies the information, print any of them.
+                </p>
             </div>
-        </div>
-        <div id="languages" class="card centercolumn">
-            <h3>Languages Allowed</h3>
-            <ul>
-                <li>C</li>
-                <li>C++</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>Assembly</li>
-            </ul>
-        </div>
-        <form id="submission" class="card centercolumn">
-            <input type="file" name="code">
-            <input type="submit" name="submit" value="Submit Code!">
-        </form>
-    </div>
 
-    <footer>
-        &lt; CUrBrain /&gt;
-    </footer>
-</body>
+            <div id="io" class="centercolumn">
+                <div class="card">
+                    <h3>Input Format</h3>
+                    <code>
+                        4 <br>
+                        1 4 <br>
+                        3 10 <br>
+                        2 6 <br>
+                        5 8 <br>
+                        3 <br>
+                        1 5 <br>
+                        2 2 6 <br>
+                        3 1 10 9 <br>
+                    </code>
+                </div>
+                <div class="card">
+                    <h3>Output Format</h3>
+                    <code>
+                        3 <br>
+                        4 <br>
+                        2 <br>
+                    </code>
+                </div>
+            </div>
+            <div id="languages" class="card centercolumn">
+                <h3>Languages Allowed</h3>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Assembly</li>
+                </ul>
+            </div>
+            <form id="submission" class="card centercolumn">
+                <input type="file" name="code" required>
+                <input type="submit" name="submit" value="Submit Code!">
+            </form>
+        </div>
+
+        <footer>
+            &lt; CUrBrain /&gt;
+        </footer>
+    </body>
 </html>

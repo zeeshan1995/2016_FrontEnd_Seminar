@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+        
+        <title>Discussions Page</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="assets/styles/forum.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/headAndFoot.css">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/Code-Optimization.png">
+    </head>
+    <body>
+        <nav>
+            <img src="assets/images/Code-Optimization.png" alt="CodeTheWeb">
+            <a href="home.html">Home</a>
+            <a href="profile.html">My Profile</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="questions.html">Question</a>
+            <a href="forum.html"  class="selected">Forum</a>
+        </nav>
+        <form>
+            <div id="searchRow">
+                <input type="text" class="textbox" name="search" placeholder="Ask or Search any discussion">&nbsp; 
+                <input type="submit" class="button" name="srch" value="Ask Question">
+            </div>
+
+            <div id="questionRow">
+                <h2>
+                    QUESTION TITLE: &nbsp;CUBSEPT16
+                </h2>
+                <h4>
+                    Discussion on the question of curbrain september challenge
+                </h4>
+                <span style="font-size: 15px;">2 Answers</span>
+            </div>
+
+            <div class="imgcontainer">
+                <div class="user">
+                    <img src="assets/images/profilepic.png" alt="Avatar" class="avatar">
+                    <h5>
+                        Alex, 4 years of coding
+                    </h5>
+                    <br>
+                    <p>Figuring out how the stdin works is much harder than solving the puzzle.</p>
+                    <div class="like">
+                        <input type="image" src="assets/images/like.png" height=40 width=40>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="image" src="assets/images/dislike.png">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="imgcontainer">
+                <div class="user">
+                    <img src="assets/images/profilepic.png" alt="Avatar" class="avatar">
+                    <h5>
+                        Anderson, 5 years of coding
+                    </h5>
+                    <br>
+                    <p>Python can actually optimise this to few lines!!</p>
+                    <div class="like">
+                        <input type="image" src="assets/images/like.png">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="image" src="assets/images/dislike.png">
+                    </div>
+                    <hr/>
+                </div>
+                <div class="answer">
+                    <img src="assets/images/profilepic.png" alt="Avatar" class="avatar">
+                    <h5>
+                        Farah, 2 years of coding
+                    </h5>
+                    <br>
+                    <p>It actually surprising to see 100 lines of code for this problem by some participants.</p>
+                    <div class="like">
+                        <input type="image" src="assets/images/like.png">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="image" src="assets/images/dislike.png">
+                    </div>
+                </div>
+            </div>
+
+                 <div id="comments">
+                    <h2>Join the discussion, Share your views
+                    </h2>
+                    <hr/>
+                    <textarea name="comment" col=100 row=100></textarea><br><br>
+                    <center>
+                        <input type="submit" name="sub" class="button" value="Submit my opinion">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="reset" name="clr" class="button" value="Clear Textarea">
+                    </center>
+                    <br>
+                    <br>
+                </div>
+            </form>
+        <footer>
+            &lt; CUrBrain /&gt;
+         </footer>
+    </body>
+</html>

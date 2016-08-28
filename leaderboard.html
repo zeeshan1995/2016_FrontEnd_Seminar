@@ -1,118 +1,122 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Nav and Footer</title>
-    <link rel="stylesheet" type="text/css" href="leaderboard.css">
-    <link rel="stylesheet" type="text/css" href="headAndFoot.css">
-</head>
-<body>
-    <nav>
-        <img src="Code-Optimization.png">
-        <a href="#">Home</a>
-        <a href="#">Practice</a>
-        <a href="#main-container">Leaderboard</a>
-        <a href="#">Question</a>
-        <a href="#">Forum</a>
-    </nav>
-    
-    <div class="main-container">
-        <div id="head">
-            <strong>LeaderBoard</strong>
-        </div>
+<html lang="en">
+    <head>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
         
-        <div id = "leaderBoardTable">
-            <table>
-                <tr>
-                <th>#</th>
-                <th>USER NAME</th>
-                <th>CONTEST</th> 
-                <th>PRACTICE</th>
-                </tr>
-                <tr>
-                <td>1</td>
-                <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>25</td> 
-                <td>50</td>
-                </tr>
-                <tr>
-                <td>2</td>
-                <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>---</td> 
-                <td>94</td>
-                </tr>
-
-                <tr id="selected">
-                <td>3</td>
-                <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>25</td> 
-                <td>50</td>
-                </tr>
-                <tr>
-                <td>4</td>
-                <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>---</td> 
-                <td>94</td>
-                </tr>
-
-                <tr>
-                <td>5</td>
-                <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>25</td> 
-                <td>50</td>
-                </tr>
-                <tr>
-                <td>6</td>
-                <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>---</td> 
-                <td>94</td>
-                </tr>
-
-                <tr>
-                <td>7</td>
-                <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>25</td> 
-                <td>50</td>
-                </tr>
-                <tr>
-                <td>8</td>
-                <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>---</td> 
-                <td>94</td>
-                </tr>
-
-                <tr>
-                <td>9</td>
-                <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>25</td> 
-                <td>50</td>
-                </tr>
-                <tr>
-                <td>10</td>
-                <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
-                <td>---</td> 
-                <td>94</td>
-                </tr>
-            </table>
-        </div>
+        <title>Leaderboard</title>
         
-        <div id="pageButtons">
-            <button>1</button>
-            <button>&lt;&lt;</button>
-            <button>&lt;</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>...</button>
-            <button>&gt;</button>
-            <button>&gt;&gt;</button>
-            <button>50</button>
-        </div>
-    </div>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
-    <footer>
-        &lt; CUrBrain /&gt;
-    </footer>
-</body>
+        <link rel="stylesheet" type="text/css" href="assets/styles/leaderboard.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/headAndFoot.css">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/Code-Optimization.png">
+    </head>
+    <body>
+        <nav>
+            <img src="assets/images/Code-Optimization.png" alt="CodeTheWeb">
+            <a href="home.html">Home</a>
+            <a href="profile.html">My Profile</a>
+            <a href="leaderboard.html" class="selected">Leaderboard</a>
+            <a href="questions.html">Question</a>
+            <a href="forum.html">Forum</a>
+        </nav>
+        
+        <div class="main-container">
+            <div id="head">
+                <strong>LeaderBoard</strong>
+            </div>
+            
+            <div id = "leaderBoardTable">
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>USER NAME</th>
+                        <th>CONTEST</th> 
+                        <th>PRACTICE</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>25</td> 
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>---</td> 
+                        <td>94</td>
+                    </tr>
+
+                    <tr id="selected">
+                        <td>3</td>
+                        <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>25</td> 
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>---</td> 
+                        <td>94</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>25</td> 
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>---</td> 
+                        <td>94</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>25</td> 
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>---</td> 
+                        <td>94</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><a href="#">Jill</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>25</td> 
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><a href="#">Eve</a><sub>Techno India,Salt Lake.</sub></td>
+                        <td>---</td> 
+                        <td>94</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="pageButtons">
+                <button name="page" value="1">1</button>
+                <button name="page" value="2">&lt;&lt;</button>
+                <button name="page" value="3">&lt;</button>
+                <button name="page" value="4">1</button>
+                <button name="page" value="5">2</button>
+                <button name="page" value="6">3</button>
+                <button name="page" value="7">4</button>
+                <button name="page" value="8">5</button>
+                <button name="page" value="9">...</button>
+                <button name="page" value="next">&gt;</button>
+                <button name="page" value="last">&gt;&gt;</button>
+                <button name="page" value="50">50</button>
+            </div>
+        </div>
+
+        <footer>
+            &lt; CUrBrain /&gt;
+        </footer>
+    </body>
 </html>

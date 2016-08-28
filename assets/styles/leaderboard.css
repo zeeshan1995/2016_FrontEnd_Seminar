@@ -1,0 +1,96 @@
+.main-container{
+  	padding: 15px;
+    width: 80%;
+    color: #505050;
+    background-color: white;
+    border: 1px solid red;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.main-container #head{
+	height: 40px;
+    font-size: xx-large;
+    padding: 10px 5px 0px;
+    border-bottom: 1px dotted;
+}
+
+.main-container #leaderBoardTable{
+	padding-top: 10px;
+    width: 104%;
+    margin: auto; 
+}
+
+.main-container table{
+	width:100%;
+	border-spacing: 1px;
+    border-style: groove;
+    border-width: 1px;
+    width: 95%;
+}
+
+.main-container #leaderBoardTable th{
+	background-color: #515151;
+	color: white;
+}
+
+.main-container #leaderBoardTable tr{
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+}
+
+.main-container #leaderBoardTable td:nth-child(2){
+	text-align: left;
+	padding-left: 20px;
+}
+
+.main-container table tr:nth-child(even) {
+    background-color: #eee;
+}
+.main-container table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.main-container table #selected{
+	background-color: #a0f5a0;
+}
+
+.main-container table a{
+	text-decoration: none;
+}
+
+.main-container table sub{
+	padding-left: 15px;
+	font-style: italic;
+}
+
+.main-container #pageButtons{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.main-container #pageButtons button{
+	height: 40px;
+    width: 40px;
+    background-color: rgb(250,250,250);
+    color: rgb(10,10,10);
+    border: 1px solid rgb(153,153,153);
+    transition-duration: 0.1s;
+}
+
+.main-container #pageButtons button:hover{
+    background-color: #999999;
+    color: white;
+}
+
+.main-container #pageButtons button:nth-child(4){
+	background-color: #999999;
+    color: white;	
+}
+
+.main-container #pageButtons button:nth-child(1),#pageButtons button:last-child{
+	background-color: #494949;
+	color: white;
+}
